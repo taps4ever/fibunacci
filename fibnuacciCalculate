@@ -1,8 +1,8 @@
 // fibunacci sequenze
-let fibunacci = 50 
-var num1 = 1
-var num2 = 1
-var num = 1
+let fibunacci = 50 // number
+var num = 5        // Start by
+var num1 = num
+var num2 = num + 1
 var count = 1
 for _ in 1...fibunacci{
     print("fibunacci \(count) \(num)")
